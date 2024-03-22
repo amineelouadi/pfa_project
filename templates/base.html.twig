@@ -31,10 +31,7 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
         {% endblock %}
 
-        
-    
-        {% block body %}
-            <div class="preloader">
+                    <div class="preloader">
         <div class="loader">
             <div class="sbl-half-circle-spin">
                 <div></div>
@@ -316,7 +313,11 @@
             </div>
         </div>
     </div>
-<div class="newsletter-area item-two ptb-100">
+    
+        {% block body %}
+   
+        {% endblock %}
+        <div class="newsletter-area item-two ptb-100">
         <div class="container">
             <div class="newsletter-content">
                 <span>Special Offer For Subscription</span>
@@ -489,9 +490,6 @@
     <div class="go-top">
         <i class="bx bx-up-arrow-alt"></i>
     </div>
-        
-        
-        {% endblock %}
     <!-- JS here -->
     {% block javascripts %}
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
